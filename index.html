@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Mes Vignettes</title>
+<style>
+:root{
+--card:#ffffff; --ink:#1a1d2e; --muted:#6b7280;
+--brand:#B08D3A; --brand2:#d8b450; --line:#ece7da; --soft:#faf6ec;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+margin:0;color:var(--ink);line-height:1.65;
+background:linear-gradient(180deg,#f4f1e9 0%,#f7f9fc 320px,#f7f9fc 100%);
+}
+.wrap{max-width:780px;margin:0 auto;padding:0 18px 64px}
+header{
+background:radial-gradient(1200px 400px at 50% -150px,#2a3a63 0%,#1F2D4E 60%,#10162b 100%);
+color:#fff;padding:46px 18px 64px;text-align:center;position:relative;
+}
+.logo{width:78px;height:78px;margin:0 auto 16px;display:block;
+filter:drop-shadow(0 8px 20px rgba(0,0,0,.35))}
+header h1{margin:0;font-size:1.7rem;font-weight:700;letter-spacing:-.3px}
+header .sub{margin:8px 0 0;opacity:.85;font-size:.95rem}
+.date{display:inline-block;margin-top:14px;font-size:.8rem;
+background:rgba(255,255,255,.14);padding:5px 12px;border-radius:999px}
+.lang{display:flex;gap:8px;justify-content:center;margin:-26px auto 26px;position:relative;z-index:2}
+.lang button{
+border:none;cursor:pointer;font-weight:600;font-size:.9rem;
+padding:10px 22px;border-radius:999px;background:#fff;color:var(--brand);
+box-shadow:0 6px 18px rgba(31,42,107,.16);transition:.18s;
+}
+.lang button.active{background:var(--brand);color:#fff}
+.lang button:hover{transform:translateY(-1px)}
+.card{
+background:var(--card);border:1px solid var(--line);border-radius:18px;
+padding:22px 24px;margin:16px 0;box-shadow:0 4px 24px rgba(20,30,80,.05);
+}
+.lead{font-size:1.05rem}
+h2{font-size:1.12rem;color:var(--ink);margin:.2em 0 .5em;display:flex;align-items:center;gap:10px}
+h2 .ic{flex:0 0 auto;width:26px;height:26px;display:grid;place-items:center;
+background:var(--soft);border-radius:8px}
+ul{margin:.4em 0;padding-left:1.2em}
+li{margin:.25em 0}
+code{background:var(--soft);color:#8a6d1f;padding:1px 6px;border-radius:5px;font-size:.88em}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+.pill{display:inline-block;background:#e9f7ef;color:#137a3e;font-weight:600;
+font-size:.8rem;padding:3px 10px;border-radius:999px}
+.contact{background:linear-gradient(135deg,#1F2D4E,#3a4f86);color:#fff;text-align:center}
+.contact h2{color:#fff;justify-content:center}
+.contact a{color:#fff;font-weight:700;text-decoration:underline}
+footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:30px}
+.en{display:none}
+</style>
+</head>
+<body>
+
+<header>
+<svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<circle cx="50" cy="50" r="46" fill="#1F2D4E" stroke="#B08D3A" stroke-width="5"/>
+<rect x="34" y="34" width="14" height="14" rx="3" fill="#2e9e5b"/>
+<rect x="52" y="34" width="14" height="14" rx="3" fill="#e08a2b"/>
+<rect x="34" y="52" width="14" height="14" rx="3" fill="#e08a2b"/>
+<rect x="52" y="52" width="14" height="14" rx="3" fill="#2e9e5b"/>
+</svg>
+<h1>Politique de confidentialité</h1>
+<p class="sub">Mes Vignettes — suivi de collection de vignettes</p>
+<span class="date" id="date">Dernière mise à jour : 25 juin 2026</span>
+</header>
+
+<div class="lang">
+<button id="btn-fr" class="active" onclick="setLang('fr')">Français</button>
+<button id="btn-en" onclick="setLang('en')">English</button>
+</div>
+
+<div class="wrap">
+
+<!-- ============ FRANÇAIS ============ -->
+<div class="fr">
+<div class="card">
+<p class="lead" style="margin:0">Mes Vignettes est une application de suivi de collection de vignettes. Les données que vous saisissez (numéros, séries, doubles, variantes, albums, photos de couverture, réservations pour des amis) restent <strong>sur votre appareil</strong> et ne sont jamais envoyées à un serveur de l'éditeur. L'application affiche cependant des <strong>publicités fournies par Google AdMob</strong>, qui utilisent un identifiant publicitaire et nécessitent un accès réseau.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">📋</span> Données stockées localement</h2>
+<p>Mes Vignettes enregistre uniquement sur votre appareil :</p>
+<ul>
+<li>L'état de vos vignettes (manquante, possédée, doubles) et le nombre d'exemplaires</li>
+<li>Vos albums, séries (à lettres ou à suffixes), variantes et cartes spéciales</li>
+<li>Les photos de couverture d'album que vous ajoutez (réduites et stockées localement)</li>
+<li>Les noms d'amis pour vos réservations de cartes</li>
+<li>Vos réglages (mode sombre, taille de texte, textes d'export…)</li>
+</ul>
+<p>Ces données <strong>ne sont pas transmises</strong> à l'éditeur ni à un tiers. Elles sont stockées dans le stockage local privé de l'application.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">📢</span> Publicités (Google AdMob)</h2>
+<p>L'application est gratuite et financée par des publicités fournies par <strong>Google AdMob</strong>. Pour diffuser ces annonces, le SDK AdMob peut collecter et traiter :</p>
+<ul>
+<li>un <strong>identifiant publicitaire</strong> de l'appareil ;</li>
+<li>des données techniques (type d'appareil, données approximatives liées à la diffusion des annonces).</li>
+</ul>
+<p>Ces données sont traitées par Google conformément à sa propre politique : <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>. Dans l'Espace économique européen, au Royaume-Uni et en Suisse, un écran de consentement (<strong>Google UMP</strong>) peut vous être présenté avant toute diffusion d'annonces personnalisées.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">📷</span> Appareil photo et galerie</h2>
+<p>Uniquement lorsque vous choisissez d'ajouter une photo de couverture à un album, l'application ouvre l'appareil photo ou la galerie via le sélecteur du système. La photo choisie est <strong>réduite et stockée localement</strong> dans l'application. Aucune photo n'est envoyée à l'éditeur.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">☁️</span> Sauvegarde, exports et partage</h2>
+<p>Déclenchés par vous uniquement :</p>
+<ul>
+<li><strong>Exports</strong> : votre collection peut être exportée en texte (.txt), tableur (.ods) ou sauvegarde complète (.json) vers l'emplacement de votre choix (Téléchargements, Google Drive, Dropbox…).</li>
+<li><strong>Partage / comparaison</strong> : vous pouvez partager un message ou un fichier (WhatsApp, e-mail…) pour comparer votre collection avec un ami. Rien n'est envoyé automatiquement.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span class="ic">🔐</span> Permissions demandées</h2>
+<ul>
+<li><strong>Internet / réseau</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>) : uniquement pour charger les publicités AdMob.</li>
+<li><strong>Écriture stockage</strong> (<code>WRITE_EXTERNAL_STORAGE</code>, Android 9 et antérieurs uniquement) : pour enregistrer les fichiers d'export.</li>
+</ul>
+<p>Aucune permission de localisation, contacts, microphone, ni accès permanent aux fichiers personnels n'est demandée.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">⚖️</span> Vos droits</h2>
+<ul>
+<li><strong>Consulter / modifier</strong> : toutes vos données sont visibles et éditables dans l'application.</li>
+<li><strong>Exporter</strong> : 💾 Fichiers → Exporter (texte, tableur, JSON, cloud).</li>
+<li><strong>Supprimer</strong> : désinstaller l'application efface les données locales.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span class="ic">🧒</span> Enfants</h2>
+<p>L'application n'est pas destinée aux enfants de moins de 13 ans et ne collecte aucune donnée visant à identifier un mineur. <span class="pill">La date en haut reflète la dernière version</span></p>
+</div>
+
+<div class="card contact">
+<h2><span class="ic" style="background:rgba(255,255,255,.2)">✉️</span> Contact</h2>
+<p style="margin:0">Pour toute question : <a href="mailto:mjdboutiquestore@gmail.com">mjdboutiquestore@gmail.com</a></p>
+</div>
+</div>
+
+<!-- ============ ENGLISH ============ -->
+<div class="en">
+<div class="card">
+<p class="lead" style="margin:0">Mes Vignettes is a sticker-collection tracker. The data you enter (numbers, series, doubles, variants, albums, cover photos, friend reservations) stays <strong>on your device</strong> and is never sent to the developer's servers. However, the app shows <strong>ads provided by Google AdMob</strong>, which use an advertising identifier and require network access.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">📋</span> Data stored locally</h2>
+<p>Mes Vignettes stores only on your device: your stickers' status (missing, owned, doubles) and counts, your albums, series, variants and special cards, the album cover photos you add (downscaled, stored locally), friends' names for reservations, and your settings. This data is <strong>not sent</strong> to the developer or any third party. It lives in the app's private local storage.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">📢</span> Ads (Google AdMob)</h2>
+<p>The app is free and funded by ads provided by <strong>Google AdMob</strong>. To serve ads, the AdMob SDK may collect and process an <strong>advertising identifier</strong> and technical data (device type, approximate ad-delivery data). This is handled by Google under its own policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>. In the EEA, UK and Switzerland, a consent screen (<strong>Google UMP</strong>) may be shown before any personalized ads.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">📷</span> Camera and gallery</h2>
+<p>Only when you choose to add an album cover photo, the app opens the camera or gallery via the system picker. The chosen photo is <strong>downscaled and stored locally</strong>. No photo is sent to the developer.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">☁️</span> Backup, exports and sharing</h2>
+<ul>
+<li><strong>Exports</strong>: your collection can be exported to text (.txt), spreadsheet (.ods) or a full backup (.json) to a location you choose (Downloads, Google Drive, Dropbox…).</li>
+<li><strong>Share / compare</strong>: you may share a message or file (WhatsApp, email…) to compare your collection with a friend. Nothing is sent automatically.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><span class="ic">🔐</span> Permissions</h2>
+<ul>
+<li><strong>Internet / network</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>): only to load AdMob ads.</li>
+<li><strong>Storage write</strong> (<code>WRITE_EXTERNAL_STORAGE</code>, Android 9 and earlier only): to save export files.</li>
+</ul>
+<p>No location, contacts, microphone, or persistent personal-file access is requested.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">⚖️</span> Your rights</h2>
+<p>View/edit your data in the app; export it from 💾 Files → Export; delete it by uninstalling the app.</p>
+</div>
+
+<div class="card">
+<h2><span class="ic">🧒</span> Children</h2>
+<p>The app is not directed at children under 13 and does not collect data that would identify a minor.</p>
+</div>
+
+<div class="card contact">
+<h2><span class="ic" style="background:rgba(255,255,255,.2)">✉️</span> Contact</h2>
+<p style="margin:0">For any question: <a href="mailto:mjdboutiquestore@gmail.com">mjdboutiquestore@gmail.com</a></p>
+</div>
+</div>
+
+<footer>© 2026 Mes Vignettes · mjdboutiquestore@gmail.com</footer>
+</div>
+
+<script>
+function setLang(l){
+document.documentElement.lang = l;
+document.querySelector('.fr').style.display = (l==='fr')?'block':'none';
+document.querySelector('.en').style.display = (l==='en')?'block':'none';
+document.getElementById('btn-fr').classList.toggle('active', l==='fr');
+document.getElementById('btn-en').classList.toggle('active', l==='en');
+document.getElementById('date').textContent =
+(l==='fr') ? "Dernière mise à jour : 25 juin 2026" : "Last updated: June 25, 2026";
+}
+</script>
+</body>
+</html>
