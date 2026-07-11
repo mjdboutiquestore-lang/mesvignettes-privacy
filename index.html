@@ -69,7 +69,7 @@ footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:30px}
 </svg>
 <h1>Politique de confidentialité</h1>
 <p class="sub">Mes Vignettes — suivi de collection de vignettes</p>
-<span class="date" id="date">Dernière mise à jour : 25 juin 2026</span>
+<span class="date" id="date">Dernière mise à jour : 11 juillet 2026</span>
 </header>
 
 <div class="lang">
@@ -110,15 +110,15 @@ footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:30px}
 
 <div class="card">
 <h2><span class="ic">📷</span> Appareil photo et galerie</h2>
-<p>Uniquement lorsque vous choisissez d'ajouter une photo de couverture à un album, l'application ouvre l'appareil photo ou la galerie via le sélecteur du système. La photo choisie est <strong>réduite et stockée localement</strong> dans l'application. Aucune photo n'est envoyée à l'éditeur.</p>
+<p>L'appareil photo (via le sélecteur du système) est utilisé uniquement à votre initiative : pour <strong>ajouter une photo de couverture</strong> à un album (la photo est réduite et stockée localement), et pour <strong>scanner un code-barres ou un QR code</strong> (ajout d'un album, ou échange de collection avec un ami). Le scan est traité <strong>sur l'appareil</strong> (module Google Play Services). Aucune image, photo ni vidéo n'est envoyée à l'éditeur.</p>
 </div>
 
 <div class="card">
 <h2><span class="ic">☁️</span> Sauvegarde, exports et partage</h2>
 <p>Déclenchés par vous uniquement :</p>
 <ul>
-<li><strong>Exports</strong> : votre collection peut être exportée en texte (.txt), tableur (.ods) ou sauvegarde complète (.json) vers l'emplacement de votre choix (Téléchargements, Google Drive, Dropbox…).</li>
-<li><strong>Partage / comparaison</strong> : vous pouvez partager un message ou un fichier (WhatsApp, e-mail…) pour comparer votre collection avec un ami. Rien n'est envoyé automatiquement.</li>
+<li><strong>Exports</strong> : votre collection peut être exportée en texte (.txt), tableur (.csv / .ods) ou sauvegarde complète (.json) vers l'emplacement de votre choix (Téléchargements, Google Drive, Dropbox…).</li>
+<li><strong>Partage / comparaison</strong> : vous pouvez partager un message, un fichier (WhatsApp, e-mail…) ou un <strong>QR code</strong> (affiché à l'écran et scanné par votre ami) pour comparer votre collection. Rien n'est envoyé automatiquement à un serveur.</li>
 </ul>
 </div>
 
@@ -169,14 +169,14 @@ footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:30px}
 
 <div class="card">
 <h2><span class="ic">📷</span> Camera and gallery</h2>
-<p>Only when you choose to add an album cover photo, the app opens the camera or gallery via the system picker. The chosen photo is <strong>downscaled and stored locally</strong>. No photo is sent to the developer.</p>
+<p>The camera (via the system picker) is used only when you choose to: <strong>add an album cover photo</strong> (downscaled and stored locally), and <strong>scan a barcode or QR code</strong> (adding an album, or trading your collection with a friend). Scanning is processed <strong>on the device</strong> (Google Play Services). No image, photo or video is sent to the developer.</p>
 </div>
 
 <div class="card">
 <h2><span class="ic">☁️</span> Backup, exports and sharing</h2>
 <ul>
-<li><strong>Exports</strong>: your collection can be exported to text (.txt), spreadsheet (.ods) or a full backup (.json) to a location you choose (Downloads, Google Drive, Dropbox…).</li>
-<li><strong>Share / compare</strong>: you may share a message or file (WhatsApp, email…) to compare your collection with a friend. Nothing is sent automatically.</li>
+<li><strong>Exports</strong>: your collection can be exported to text (.txt), spreadsheet (.csv / .ods) or a full backup (.json) to a location you choose (Downloads, Google Drive, Dropbox…).</li>
+<li><strong>Share / compare</strong>: you may share a message, a file (WhatsApp, email…) or a <strong>QR code</strong> (shown on screen and scanned by your friend) to compare your collection. Nothing is sent automatically to a server.</li>
 </ul>
 </div>
 
@@ -216,7 +216,7 @@ document.querySelector('.en').style.display = (l==='en')?'block':'none';
 document.getElementById('btn-fr').classList.toggle('active', l==='fr');
 document.getElementById('btn-en').classList.toggle('active', l==='en');
 document.getElementById('date').textContent =
-(l==='fr') ? "Dernière mise à jour : 25 juin 2026" : "Last updated: June 25, 2026";
+(l==='fr') ? "Dernière mise à jour : 11 juillet 2026" : "Last updated: July 11, 2026";
 }
 </script>
 </body>
